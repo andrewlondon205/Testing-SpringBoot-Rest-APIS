@@ -92,7 +92,7 @@ public class GradebookControllerTest {
     @Value("${sql.script.delete.history.grade}")
     private String sqlDeleteHistoryGrade;
 
-    public static final MediaType APPLICATION_JSON_UTF8 = MediaType.APPLICATION_JSON; 
+    public static final MediaType APPLICATION_JSON_UTF8 = MediaType.APPLICATION_JSON;
 
     @BeforeAll
     public static void setup() {
@@ -112,7 +112,7 @@ public class GradebookControllerTest {
     }
 
     @Test
-    public void placeholder () {
+    public void getStudents () {
 
     }
 
