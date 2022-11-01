@@ -20,7 +20,6 @@ public class GradebookController {
     @Autowired
     private Gradebook gradebook;
 
-
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<GradebookCollegeStudent> getStudents() {
         gradebook = studentService.getGradebook();
